@@ -1,0 +1,24 @@
+
+
+MIGRATIONS_PATH = ./cmd/migrations/migrate
+DB_ADDR = postgres://user:Nathansno1@localhost:5432/socialnetwork?sslmode=disable
+
+.PHONY: test
+test:
+	@go test -v ./...
+.PHONY: migrate-create
+migration:
+	@migrate create -seq -ext sql -dir $(MIGRATIONS_PATH) $(filter-out $@,$(MAKECMDGOALS))
+.PHONY: migrate-up
+migrate-up:
+	@migrate -path=$(MIGRATIONS_PATH) -database=$(DB_ADDR) up
+.PHONY: migrate-down
+migrate-down:
+	@migrate -path=$(MIGRATIONS_PATH) -database=$(DB_ADDR) down $(filter-out $@,$(MAKECMDGOALS))
+.PHONY: seed
+seed:
+	@go run cmd/migrations/seed/main.go
+
+.PHONY: gen-docs
+gen-docs:
+	@swag init -g ./api/main.go -d cmd,internal -o ./docs && swag fmt

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000003_alter_post_table.down.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000003_alter_post_table.up.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000004_alter_posts_with_tags_updated.down.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000004_alter_posts_with_tags_updated.up.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000006_add_version_posts.down.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000006_add_version_posts.up.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000007_add_followers_table.up.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000008_add_indexes.up.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000011_add_expiry_to_invitations.down.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000011_add_expiry_to_invitations.up.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/cmd/migrations/migrate/000013_alter_users_with_roles.up.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/internal/store/comments.go" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/internal/store/followers.go" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/internal/store/posts.go" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/internal/store/roles.go" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/internal/store/users.go" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+    <file url="file://$PROJECT_DIR$/social/scripts/db_init.sql" value="8e55a79d-68d6-462e-8faa-c927b191ce31" />
+  </component>
+</project>

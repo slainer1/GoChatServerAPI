@@ -1,0 +1,4 @@
+build-errors.log
+*log
+.jwt.go
+.envrc
