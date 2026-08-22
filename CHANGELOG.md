@@ -5,6 +5,13 @@
 
 ### Features
 
+* init commit ([207a68d](https://github.com/slainer1/GoChatServerAPI/commit/207a68d27e3a369a56137116d354cb907caf27f0))
+
+## 1.0.0 (2026-08-22)
+
+
+### Features
+
 * Initial commit ([82c94c7](https://github.com/slainer1/GoChatServerAPI/commit/82c94c73aa50cd16b3f7c8e090bda88e4755e22b))
 * update api version automatically ([c0a4b05](https://github.com/slainer1/GoChatServerAPI/commit/c0a4b0522f06aab016a2447822ffa1b64c9ab4a3))
 
