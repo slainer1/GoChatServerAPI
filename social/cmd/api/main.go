@@ -23,7 +23,7 @@ import (
 // // or start by using go run /cmd/api/*.go
 // //////////////////////////////////////////////
 
-const version = "1.1.0"
+const version = ""
 
 //	@title			GopherSocial API
 //	@description	API for GopherSocial, a social network for gophers
